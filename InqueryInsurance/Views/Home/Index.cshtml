@@ -3,24 +3,22 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<a href="/home/CreateRequest?id=0" class="btn btn-primary"> new request</a>
+<a href="/home/CreateRequest?id=0" class="btn btn-primary">درخواست جدید</a>
 <div class="mt-5">
     <label>requests</label>
     <table class="table">
         <thead>
             <tr>
-                <td>Amount</td>
-                <td>InsurancePayment</td>
-                <td>DateTime</td>
-                <td>
-                </td>
+                <td>سرمایه</td>
+                <td>حق بیمه خالص</td>
+                <td>تاریخ درخواست</td>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.Amount</td>
+                    <td>@item.Fund</td>
                     <td>@item.InsuranceNetPremium</td>
                     <td>@item.DateTime</td>
                 </tr>

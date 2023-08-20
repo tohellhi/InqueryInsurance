@@ -10,7 +10,7 @@ namespace InqueryInsurance.Controllers
     [Authorize]
     public class HomeController : Controller
     {
-        string UserId => User.FindFirstValue(ClaimTypes.NameIdentifier);
+        long UserId => long.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
         private readonly RequestService _requestService;
         private readonly InsurancePatternService _insurancePatternService;
 
