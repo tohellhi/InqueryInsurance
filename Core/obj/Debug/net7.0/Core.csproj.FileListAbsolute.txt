@@ -26,3 +26,17 @@ E:\InqueryInsurance\Core\bin\Debug\net7.0\Core.dll
 E:\InqueryInsurance\Core\bin\Debug\net7.0\Core.pdb
 E:\InqueryInsurance\Core\obj\Debug\net7.0\Core.genruntimeconfig.cache
 E:\InqueryInsurance\Core\obj\Debug\net7.0\ref\Core.dll
+C:\Users\780\source\repos\InqueryInsurance\Core\bin\Debug\net7.0\Core.deps.json
+C:\Users\780\source\repos\InqueryInsurance\Core\bin\Debug\net7.0\Core.runtimeconfig.json
+C:\Users\780\source\repos\InqueryInsurance\Core\bin\Debug\net7.0\Core.dll
+C:\Users\780\source\repos\InqueryInsurance\Core\bin\Debug\net7.0\Core.pdb
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.dll
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\refint\Core.dll
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.pdb
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\Core.genruntimeconfig.cache
+C:\Users\780\source\repos\InqueryInsurance\Core\obj\Debug\net7.0\ref\Core.dll

@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer("server=.;initial catalog=InqueryInsurance;user id=sa;password=1234;TrustServerCertificate=True", b => b.MigrationsAssembly("InqueryInsurance")));
-builder.Services.AddIdentity<User, IdentityRole<long>>(x =>
+builder.Services.AddIdentity<User, IdentityRole<string>>(x =>
 {
     x.Password.RequireUppercase = false;
     x.Password.RequireLowercase = false;
