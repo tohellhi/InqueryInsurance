@@ -4,7 +4,7 @@ public class Request
 {
     public long Id { get; set; }
     public string Title { get; set; }
-    public long RequesterId { get; set; }
+    public string RequesterId { get; set; }
     public DateTime DateTime { get; set; }=DateTime.Now;
     public long Fund { get; set; }
     public decimal InsuranceNetPremium { get; set; }

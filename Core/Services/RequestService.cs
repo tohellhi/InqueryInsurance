@@ -14,12 +14,12 @@ public class RequestService
         _insurancePatternService = insurancePatternService;
     }
 
-    public async Task<List<Request>> MyRequests(long userId)
+    public async Task<List<Request>> MyRequests(string userId)
     {
         return await _db.Request.Where(x => x.RequesterId == userId).AsNoTracking().ToListAsync();
     }
 
-    public async Task<Request?> MyRequest(long userId, long id)
+    public async Task<Request?> MyRequest(string userId, long id)
     {
         return await _db.Request.FirstOrDefaultAsync(x => x.RequesterId == userId && x.Id == id);
     }

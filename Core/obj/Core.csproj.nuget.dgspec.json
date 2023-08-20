@@ -11,7 +11,7 @@
         "projectName": "Core",
         "projectPath": "C:\\Users\\780\\source\\repos\\InqueryInsurance\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\780\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\780\\Source\\Repos\\InqueryInsurance\\Core\\obj\\",
+        "outputPath": "C:\\Users\\780\\source\\repos\\InqueryInsurance\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
