@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUtTMjtsp962jr4wQ6IzA0lyP971J3OVsJGxz3y9RLrk0DRWrJtPaZtzHD4hfY2ZeYensUs0fsnt6JglbWjisA==",
+  "dgSpecHash": "xTFUW2iqRb1uHhF9muPiNuyNH9IsKmHN8/+CLXwOAJo3qI1xP0MlT3uXCZP243CCdhllxrJX2BOEek7x3U307Q==",
   "success": true,
-  "projectFilePath": "E:\\InqueryInsurance\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\780\\source\\repos\\InqueryInsurance\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\780\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\780\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

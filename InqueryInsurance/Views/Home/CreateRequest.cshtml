@@ -1,0 +1,40 @@
+﻿@using Core.Models;
+@model Request
+@{
+    var patterns = (List<SelectListItem>)ViewData["patterns"];
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <form method="post">
+            <input asp-for="Id" type="hidden" />
+
+            <div  class="text-danger">@ViewData["error"]</div>
+
+            <div class="form-group">
+                <label asp-for="Title">عنوان</label>
+                <input asp-for="Title" class="form-control" />
+            </div>
+
+            <div class="form-group mt-3">
+                <label asp-for="Amount">مبلغ</label>
+                <input asp-for="Amount" class="form-control" />
+            </div>
+
+            <div class="form-group mt-3">
+                <label >انتخاب پوشش</label>
+                <ul>
+                    @foreach (var item in patterns)
+                    {
+                        <li>
+                            <label><input type="checkbox" name="patterns" value="@item.Value" />@item.Text</label>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-4">submit</button>
+        </form>
+
+    </div>
+</div>

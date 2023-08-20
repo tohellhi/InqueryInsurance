@@ -3718,16 +3718,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\InqueryInsurance\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\780\\Source\\Repos\\InqueryInsurance\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "E:\\InqueryInsurance\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\780\\Source\\Repos\\InqueryInsurance\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\780\\.nuget\\packages\\",
-      "outputPath": "E:\\InqueryInsurance\\Core\\obj\\",
+      "outputPath": "C:\\Users\\780\\Source\\Repos\\InqueryInsurance\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "C:\\Users\\780\\NuGet.Config",
         "C:\\Users\\780\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3736,7 +3737,6 @@
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
